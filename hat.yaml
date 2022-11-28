@@ -1,0 +1,6 @@
+train: ../training_data/images/train/  # train images
+val: ../training_data/images/val  # val images
+nc: 2
+names: ['hat', 'person']
+
+
