@@ -25,8 +25,10 @@ pip install -r requirements.txt  # install
 ```
 python3 train.py --img 640 --batch 32 --epochs 100 --data hat.yaml --weights yolov5s.pt --device 0
 ```
-Наслаждаемся результатом :+1:
+Наслаждаемся результатом :+1:  
 
+
+![ezgif-1-96b2fe6805](https://user-images.githubusercontent.com/56885818/204822080-33217f48-c67e-48a4-b99d-c1959e453707.gif)
 
 
 
