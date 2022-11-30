@@ -25,10 +25,22 @@ pip install -r requirements.txt  # install
 ```
 python3 train.py --img 640 --batch 32 --epochs 100 --data hat.yaml --weights yolov5s.pt --device 0
 ```
+Проверка полученных результатов:  
+
+```
+python3 detect.py --weights ./runs/train/exp/weights/best.pt --source ./val_img/ --conf-thres 0.5
+```
+
+ 
 Наслаждаемся результатом :+1:  
 
 
-![ezgif-1-96b2fe6805](https://user-images.githubusercontent.com/56885818/204822080-33217f48-c67e-48a4-b99d-c1959e453707.gif)
+![ezgif-1-96b2fe6805](https://user-images.githubusercontent.com/56885818/204822080-33217f48-c67e-48a4-b99d-c1959e453707.gif)  
+
+![7c1ba4fe5df8b041806a9c4048f3bf44_XL](https://user-images.githubusercontent.com/56885818/204825375-7c40a83c-f449-4348-a1ba-7dd043024518.jpg)  
+
+![original-16d](https://user-images.githubusercontent.com/56885818/204825013-4ee33185-a760-4610-9036-c569a61b72b4.jpg)  
+
 
 
 
