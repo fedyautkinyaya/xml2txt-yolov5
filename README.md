@@ -1,4 +1,4 @@
-# yolov5 - helmet detector
+# yolov5 - helmet detectorr
 
 
 Скачаем имеющийся в свободном доступе датасет https://www.v7labs.com/open-datasets/shwd-dataset  
